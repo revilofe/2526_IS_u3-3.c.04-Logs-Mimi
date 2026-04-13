@@ -1,0 +1,51 @@
+Timestamp|Host|User|EventID|LogType|Process|CommandLine
+5/24/25 10:00|SERVER-01|admin|5156|Network Connection||Connection from SERVER-01 to 192.168.1.88:443
+5/24/25 10:01|SERVER-01|admin|4624|Authentication||Logon attempt by admin on SERVER-01
+5/24/25 10:03|SERVER-01|izzmier|4688|Process Creation|cmd.exe|powershell -enc aW52b2tlLW1pbWlrYXR6
+5/24/25 10:03|DESKTOP-01|admin|4688|Process Creation|cmd.exe|mimikatz.exe privilege::debug sekurlsa::logonpasswords
+5/24/25 10:04|SERVER-01|izzmier|5156|Network Connection||Connection from SERVER-01 to 192.168.1.125:443
+5/24/25 10:05|DC-01|admin|4688|Process Creation|explorer.exe|cmd /c whoami
+5/24/25 10:06|DC-01|admin|4688|Process Creation|rundll32.exe|rundll32.exe shell32.dll,Control_RunDLL
+5/24/25 10:07|DESKTOP-02|svc_backup|4688|Process Creation|rundll32.exe|cmd /c whoami
+5/24/25 10:07|DC-01|svc_backup|4688|Process Creation|mimikatz.exe|powershell -enc aW52b2tlLW1pbWlrYXR6
+5/24/25 10:08|DESKTOP-02|izzmier|4688|Process Creation|rundll32.exe|powershell -enc aW52b2tlLW1pbWlrYXR6
+5/24/25 10:08|DESKTOP-02|sysadmin|4624|Authentication||Logon attempt by sysadmin on DESKTOP-02
+5/24/25 10:09|SERVER-01|izzmier|5156|Network Connection||Connection from SERVER-01 to 192.168.1.150:443
+5/24/25 10:11|DESKTOP-02|izzmier|4624|Authentication||Logon attempt by izzmier on DESKTOP-02
+5/24/25 10:12|DESKTOP-01|admin|5156|Network Connection||Connection from DESKTOP-01 to 192.168.1.111:443
+5/24/25 10:14|DESKTOP-01|svc_backup|5156|Network Connection||Connection from DESKTOP-01 to 192.168.1.163:443
+5/24/25 10:14|DC-01|izzmier|4688|Process Creation|mimikatz.exe|mimikatz.exe privilege::debug sekurlsa::logonpasswords
+5/24/25 10:14|DESKTOP-01|izzmier|5156|Network Connection||Connection from DESKTOP-01 to 192.168.1.51:443
+5/24/25 10:15|DESKTOP-01|admin|4624|Authentication||Logon attempt by admin on DESKTOP-01
+5/24/25 10:16|DESKTOP-02|admin|5156|Network Connection||Connection from DESKTOP-02 to 192.168.1.243:443
+5/24/25 10:16|DESKTOP-02|izzmier|5156|Network Connection||Connection from DESKTOP-02 to 192.168.1.27:443
+5/24/25 10:17|DC-01|admin|5156|Network Connection||Connection from DC-01 to 192.168.1.26:443
+5/24/25 10:18|DESKTOP-02|admin|5156|Network Connection||Connection from DESKTOP-02 to 192.168.1.225:443
+5/24/25 10:18|DESKTOP-02|izzmier|4624|Authentication||Logon attempt by izzmier on DESKTOP-02
+5/24/25 10:24|DC-01|sysadmin|4624|Authentication||Logon attempt by sysadmin on DC-01
+5/24/25 10:24|SERVER-01|izzmier|4624|Authentication||Logon attempt by izzmier on SERVER-01
+5/24/25 10:25|DESKTOP-02|svc_backup|5156|Network Connection||Connection from DESKTOP-02 to 192.168.1.84:443
+5/24/25 10:25|DC-01|svc_backup|5156|Network Connection||Connection from DC-01 to 192.168.1.214:443
+5/24/25 10:26|SERVER-01|sysadmin|5156|Network Connection||Connection from SERVER-01 to 192.168.1.221:443
+5/24/25 10:27|DESKTOP-02|sysadmin|4624|Authentication||Logon attempt by sysadmin on DESKTOP-02
+5/24/25 10:29|SERVER-01|sysadmin|4688|Process Creation|cmd.exe|explorer.exe
+5/24/25 10:30|DC-01|izzmier|4688|Process Creation|rundll32.exe|mimikatz.exe privilege::debug sekurlsa::logonpasswords
+5/24/25 10:33|DESKTOP-01|admin|4688|Process Creation|cmd.exe|cmd /c whoami
+5/24/25 10:36|DESKTOP-02|sysadmin|5156|Network Connection||Connection from DESKTOP-02 to 192.168.1.194:443
+5/24/25 10:36|DC-01|admin|4688|Process Creation|explorer.exe|rundll32.exe shell32.dll,Control_RunDLL
+5/24/25 10:36|SERVER-01|admin|4624|Authentication||Logon attempt by admin on SERVER-01
+5/24/25 10:40|DESKTOP-02|izzmier|4688|Process Creation|powershell.exe|powershell -enc aW52b2tlLW1pbWlrYXR6
+5/24/25 10:40|DESKTOP-01|svc_backup|4688|Process Creation|mimikatz.exe|rundll32.exe shell32.dll,Control_RunDLL
+5/24/25 10:41|DESKTOP-01|svc_backup|5156|Network Connection||Connection from DESKTOP-01 to 192.168.1.118:443
+5/24/25 10:43|DESKTOP-01|admin|5156|Network Connection||Connection from DESKTOP-01 to 192.168.1.71:443
+5/24/25 10:45|DC-01|svc_backup|5156|Network Connection||Connection from DC-01 to 192.168.1.116:443
+5/24/25 10:46|DC-01|admin|4688|Process Creation|powershell.exe|powershell -enc aW52b2tlLW1pbWlrYXR6
+5/24/25 10:48|DESKTOP-02|sysadmin|4624|Authentication||Logon attempt by sysadmin on DESKTOP-02
+5/24/25 10:49|DESKTOP-02|svc_backup|5156|Network Connection||Connection from DESKTOP-02 to 192.168.1.128:443
+5/24/25 10:49|DESKTOP-02|svc_backup|5156|Network Connection||Connection from DESKTOP-02 to 192.168.1.234:443
+5/24/25 10:49|SERVER-01|izzmier|4624|Authentication||Logon attempt by izzmier on SERVER-01
+5/24/25 10:54|DESKTOP-01|sysadmin|4624|Authentication||Logon attempt by sysadmin on DESKTOP-01
+5/24/25 10:54|DESKTOP-02|admin|4688|Process Creation|cmd.exe|explorer.exe
+5/24/25 10:56|DESKTOP-02|svc_backup|5156|Network Connection||Connection from DESKTOP-02 to 192.168.1.18:443
+5/24/25 10:57|DESKTOP-02|admin|4688|Process Creation|rundll32.exe|mimikatz.exe privilege::debug sekurlsa::logonpasswords
+5/24/25 10:58|DESKTOP-01|admin|4688|Process Creation|mimikatz.exe|rundll32.exe shell32.dll,Control_RunDLL

@@ -1,5 +1,9 @@
 # Actividad práctica: investigación de un incidente a partir de logs
 
+En esta actividad práctica, se te presenta un escenario de investigación de incidentes basado en un conjunto de logs simulados. Tu tarea es analizar estos logs, identificar patrones sospechosos y construir una narrativa coherente sobre lo que ha ocurrido, utilizando la metodología de investigación de incidentes vista en clase.
+
+reponde en [informe.md](./informe.md)
+
 ## 1. Contexto del caso
 
 El caso comienza en el **SOC**, a partir de una alerta que ha sido considerada lo bastante relevante como para abrir una investigación. En una situación real, este punto de partida suele producirse después de que las herramientas de monitorización y correlación hayan reunido actividad sospechosa procedente de varios sistemas y la hayan puesto en manos del analista para su triage. La investigación, por tanto, no arranca “desde cero”, sino desde un **conjunto de evidencias ya recogidas y acotadas** por el equipo de seguridad.
@@ -172,4 +176,5 @@ Al terminar la actividad, tu informe debería permitir responder con claridad a 
 * **Qué ha pasado**
 * **Qué evidencia lo sostiene**
 * **Qué harías a continuación como analista**
+   *  Medidas de contención iniciales
 
